@@ -6,7 +6,7 @@
 
 import numpy as np
 
-from ../../utils import verbose
+# from ../../utils import verbose
 from ._utils import _fetch_one, _data_path, AGE_SLEEP_RECORDS
 from ._utils import _check_subjects
 
@@ -15,7 +15,7 @@ data_path = _data_path  # expose _data_path(..) as data_path(..)
 BASE_URL = 'https://physionet.org/physiobank/database/sleep-edfx/sleep-cassette/'  # noqa: E501
 
 
-@verbose
+# @verbose
 def fetch_data(subjects, recording=[1, 2], path=None, force_update=False,
                update_path=None, base_url=BASE_URL,
                verbose=None):  # noqa: D301
