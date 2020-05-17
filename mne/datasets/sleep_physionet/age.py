@@ -7,8 +7,8 @@
 import numpy as np
 
 # from ../../utils import verbose
-from ._utils import _fetch_one, _data_path, AGE_SLEEP_RECORDS
-from ._utils import _check_subjects
+from _utils import _fetch_one, _data_path, AGE_SLEEP_RECORDS
+from _utils import _check_subjects
 
 data_path = _data_path  # expose _data_path(..) as data_path(..)
 
